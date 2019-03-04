@@ -22,3 +22,6 @@ java -Dspring.profiles.active=chaos-monkey -jar target/cirrus-up-cloud-demo-chao
 * curl -X GET 'http://localhost:8080/sum' -> API offered by this app
 * curl -X POST 'http://localhost:8080/actuator/chaosmonkey/enable' -> enable Chaos Monkey attack
 * curl -X GET 'http://localhost:8080/actuator/chaosmonkey/status' -> check Chaos Monkey status
+
+### Resources ###
+* More resources available [here](http://bit.ly/2GJYksu).
